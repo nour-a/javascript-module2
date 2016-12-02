@@ -48,6 +48,11 @@ function myFunction() {
 > **In Class Excersice**
 > Create an interface with a menu and several buttons that, when clicked, show and hide different elements.
 
+## Homework 1
+Create a flow diagram and pseudo-code for the game you coded last homework.
+- If you didn't code the game, this is your second chance to code it now!
+- If you did code the game, try coding a new, more complicated game of your choice.
+
 ## JSON
 Read: http://www.w3schools.com/js/js_json_intro.asp
 
@@ -65,6 +70,5 @@ Read: https://www.mobapi.com/apis-introduction-and-context/
 
 ![N|Solid](https://www.mobapi.com/wp-content/uploads/2015/09/API-EN.png)
 
-## Homework
-Create a random quote generator:
-https://www.freecodecamp.com/challenges/build-a-random-quote-machine
+## Homework 2
+API Homework
