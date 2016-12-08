@@ -1,25 +1,24 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-<title>TIC TAC TOE</title>
-<link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
-</head>
-
-<body>
-
-<div id="board">
-	<div class="sq r1 c1" onclick="play(this)"></div>
-	<div class="sq r1 c2" onclick="play(this)"></div>
-	<div class="sq r1 c3" onclick="play(this)"></div>
-	<div class="sq r2 c1" onclick="play(this)"></div>
-	<div class="sq r2 c2" onclick="play(this)"></div>
-	<div class="sq r2 c3" onclick="play(this)"></div>
-	<div class="sq r3 c1" onclick="play(this)"></div>
-	<div class="sq r3 c2" onclick="play(this)"></div>
-	<div class="sq r3 c3" onclick="play(this)"></div>
-</div>
-<div id="message"></div>
-
-</body>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script type="text/javascript" src="java.js"></script>
+	</head>
+	<body>
+		<div id ="container">
+			<h1> ** TIC - TAC - TOE **</h1>
+			<canvas id = "canvas1"  width="50" height="50"  onclick="canvasClicked(1)"></canvas>
+			<canvas id = "canvas2"  width="50" height="50"  onclick="canvasClicked(2)"></canvas>
+			<canvas id = "canvas3"  width="50" height="50"  onclick="canvasClicked(3)"></canvas><br/>
+			<canvas id = "canvas4"  width="50" height="50"  onclick="canvasClicked(4)"></canvas>
+			<canvas id = "canvas5"  width="50" height="50"  onclick="canvasClicked(5)"></canvas>
+			<canvas id = "canvas6"  width="50" height="50"  onclick="canvasClicked(6)"></canvas><br/>
+			<canvas id = "canvas7"  width="50" height="50"  onclick="canvasClicked(7)"></canvas>
+			<canvas id = "canvas8"  width="50" height="50"  onclick="canvasClicked(8)"></canvas>
+			<canvas id = "canvas9"  width="50" height="50"  onclick="canvasClicked(9)"></canvas><br/>
+		</div>
+		<div id="message"></div>
+		<button onclick="playAgain()">Play again</button>
+	</body>
 </html>
+
